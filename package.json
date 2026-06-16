@@ -1,0 +1,36 @@
+{
+  "name": "@goonerlabs/idempotency",
+  "version": "0.1.0",
+  "description": "Exactly-once processing for money-moving operations — run an operation once per key, replay the stored result on retries, and dedupe concurrent callers. Zero dependencies, pluggable async store.",
+  "keywords": [
+    "idempotency",
+    "idempotent",
+    "exactly-once",
+    "deduplication",
+    "payments",
+    "retry",
+    "web3",
+    "fintech",
+    "safety"
+  ],
+  "license": "MIT",
+  "author": "Owolabi Adeyemi (goonerlabs) <goonerlabs@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goonerlabs/idempotency.git"
+  },
+  "homepage": "https://github.com/goonerlabs/idempotency#readme",
+  "bugs": "https://github.com/goonerlabs/idempotency/issues",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
