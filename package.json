@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/goonerlabs/idempotency#readme",
   "bugs": "https://github.com/goonerlabs/idempotency/issues",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "commonjs",
   "main": "src/index.js",
   "types": "src/index.d.ts",
