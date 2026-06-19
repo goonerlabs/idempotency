@@ -1,6 +1,6 @@
 {
   "name": "@goonerlabs/idempotency",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exactly-once processing for money-moving operations — run an operation once per key, replay the stored result on retries, and dedupe concurrent callers. Zero dependencies, pluggable async store.",
   "keywords": [
     "idempotency",
